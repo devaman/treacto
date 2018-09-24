@@ -1,11 +1,13 @@
 <h1 align="center">
   <p align="center">Treacto</p>
   
-<!-- ![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=for-the-badge&label=Stars) -->
-
 </h1>
+<p align="center">
+  
+[![GitHub issues](https://img.shields.io/github/issues/devaman/treacto.svg?style=for-the-badge)](https://github.com/devaman/treacto/issues) [![GitHub forks](https://img.shields.io/github/forks/devaman/treacto.svg?style=for-the-badge)](https://github.com/devaman/treacto/network) [![GitHub stars](https://img.shields.io/github/stars/devaman/treacto.svg?style=for-the-badge)](https://github.com/devaman/treacto/stargazers) [![GitHub license](https://img.shields.io/github/license/devaman/treacto.svg?style=for-the-badge)](https://github.com/devaman/treacto/blob/master/LICENSE)
 
+  </p>
+  
 # Introduction
 
 Treacto is a truffle box which can be used to create dapps.
