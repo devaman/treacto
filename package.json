@@ -1,0 +1,23 @@
+{
+  "name": "nodejsbox",
+  "version": "1.0.0",
+  "description": "Nodejs Box",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\"",
+    "start": " npm run dev ",
+    "server": "PORT=4000 nodemon --watch server ./server/bin/www",
+    "client": "cd ./client && npm start"
+  },
+  "keywords": [
+    "Truffle"
+  ],
+  "author": "Amit Chambial",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
+}

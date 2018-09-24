@@ -1,0 +1,63 @@
+<h1 align="center">
+  <p align="center">Treacto</p>
+  
+<!-- ![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=for-the-badge&label=Stars) -->
+
+</h1>
+
+# Introduction
+
+Treacto is a truffle box which can be used to create dapps.
+
+Treacto uses ethereum to store the important piece of information on it. The other information that are not important to us can be stored in mongodb database.Its like offchain data-storage house as we have to pay more gas price to store large piece of information on ethereum chain.
+
+> Technology used: Truffle, Reactjs, Redux, Nodejs, Passportjs(token based auth), mongodb, expressjs, ganache.
+
+# Installation
+
+1. Install Truffle and Ganache CLI globally. If you prefer, the graphical version of Ganache works as well!
+
+```
+npm install -g truffle
+npm install -g ganache-cli
+```
+
+2. You can use the command <code>truffle unbox devaman/treacto</code> to create dapp.
+
+3. Run ganache on localhost:8545 (Default)
+```
+ganache-cli
+```
+4. Install all the node modules required by running:
+- in client folder
+```
+npm install
+```
+- in server folder
+```
+npm install
+```
+5. Create a databse.js file in server/config/database.js having following content.
+```
+module.exports={
+'secret':'mysecret',
+'database':'mongodb://linktomongodb'
+};
+```
+
+6. Compile and migrate the smart contracts.
+```
+truffle compile
+truffle migrate --network ganache
+```
+
+6.Start the dapp.
+```
+npm start
+```
+It will start both client and server.
+
+# Contributor
+
+- [Amit Chambial](https://github.com/devaman)
