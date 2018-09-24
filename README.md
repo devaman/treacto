@@ -40,7 +40,11 @@ npm install
 ```
 npm install
 ```
-5. Create a databse.js file in server/config/database.js having following content.
+- in root folder
+```
+npm install
+```
+5. Create a database.js file in server/config/database.js having following content.
 ```
 module.exports={
 'secret':'mysecret',
