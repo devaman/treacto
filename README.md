@@ -70,4 +70,4 @@ It will start both client and server.
 
 # Contributor
 
-- [Amit Chambial](https://github.com/devaman)
+- [Amit Chambial](https://github.com/devaman/)
