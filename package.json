@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Nodejs Box",
   "main": "server.js",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=5.0.0"
+  },
   "directories": {
     "test": "test"
   },
