@@ -22,6 +22,7 @@
   "author": "Amit Chambial",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^4.0.1"
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.11.0"
   }
 }
