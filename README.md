@@ -10,6 +10,8 @@
 [![GitHub license](https://img.shields.io/github/license/devaman/treacto.svg?style=for-the-badge)](https://github.com/devaman/treacto/blob/master/LICENSE)
 [![HitCount](http://hits.dwyl.io/devaman/treacto.svg?style=for-the-badge)](http://hits.dwyl.io/devaman/treacto)
 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/treacto/Lobby)
+
   </p>
   
 # Introduction
